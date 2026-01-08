@@ -20,25 +20,5 @@ namespace CargaMasivaDatos.Core.Interfaces
         /// Actualiza un log de procesamiento existente
         /// </summary>
         Task<bool> ActualizarLogProcesamientoAsync(LogProcesamiento log);
-
-        /// <summary>
-        /// Guarda un error y su información de reintento
-        /// </summary>
-        Task<int> GuardarErrorAsync(ErrorReintento error);
-
-        /// <summary>
-        /// Marca un error como resuelto
-        /// </summary>
-        Task<bool> MarcarErrorComoResueltoAsync(int errorId);
-
-        /// <summary>
-        /// Obtiene errores no resueltos que pueden reintentarse
-        /// </summary>
-        Task<List<ErrorReintento>> ObtenerErroresPendientesAsync();
-
-        /// <summary>
-        /// Actualiza el contador de reintentos de un error
-        /// </summary>
-        Task<bool> ActualizarReintentosAsync(int errorId, int nuevoContador);
     }
 }
