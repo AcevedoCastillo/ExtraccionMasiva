@@ -48,11 +48,13 @@ namespace CargaMasivaDatos.Core.Services
             var resultado = new ResultadoProcesamientoDTO
             {
                 LoteID = ++_contadorLote,
+                FechaInicio = DateTime.Now
             };
 
             var log = new LogProcesamiento
             {
                 LoteID = resultado.LoteID,
+                FechaInicio = resultado.FechaInicio,
                 Estado = "Procesando"
             };
 
@@ -123,6 +125,9 @@ namespace CargaMasivaDatos.Core.Services
             }
             finally
             {
+                // Actualizar log con los resultados finales
+                resultado.FechaFin = DateTime.Now;
+                log.FechaFin = resultado.FechaFin;
 
                 if (logId > 0)
                 {
@@ -171,6 +176,5 @@ namespace CargaMasivaDatos.Core.Services
                 return false;
             }
         }
-
     }
 }
