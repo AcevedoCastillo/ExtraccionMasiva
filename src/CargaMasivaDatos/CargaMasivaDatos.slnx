@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="CargaMasivaDato.Data/CargaMasivaDato.Data.csproj" Id="30fa38de-a1a5-4305-b83c-4b4f6e17738b" />
   <Project Path="CargaMasivaDatos.Core/CargaMasivaDatos.Core.csproj" Id="58059bd3-940c-4eb1-bc50-34106dda55f6" />
   <Project Path="CargaMasivaDatos.Data/CargaMasivaDatos_old.Data.csproj" Id="1c45b770-249f-483e-9cc7-2813ed46a505" />
   <Project Path="CargaMasivaDatos/CargaMasivaDatos.csproj" Id="ff9b9cc3-5d0f-4f8b-bee5-32e813dfed18" />
