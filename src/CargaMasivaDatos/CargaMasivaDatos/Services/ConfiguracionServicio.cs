@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace CargaMasivaDatos.Core.Services
 {
-    public class ConfiguracionServicio 
+    public class ConfiguracionServicio : IConfiguracionServicio
     {
         private ConfiguracionDTO _configuracionCache;
         public ConfiguracionDTO ObtenerConfiguracion()

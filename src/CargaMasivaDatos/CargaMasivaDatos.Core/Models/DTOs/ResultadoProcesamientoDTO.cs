@@ -17,6 +17,8 @@ namespace CargaMasivaDatos.Core.Models.DTOs
         public bool Exitoso { get; set; }
         public string Mensaje { get; set; }
         public List<string> Errores { get; set; }
+        public DateTime FechaInicio { get; set; }
+        public DateTime FechaFin { get; set; }
 
         public ResultadoProcesamientoDTO()
         {
