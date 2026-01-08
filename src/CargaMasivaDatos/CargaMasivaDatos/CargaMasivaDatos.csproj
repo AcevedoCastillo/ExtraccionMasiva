@@ -78,10 +78,6 @@
       <Project>{58059bd3-940c-4eb1-bc50-34106dda55f6}</Project>
       <Name>CargaMasivaDatos.Core</Name>
     </ProjectReference>
-    <ProjectReference Include="..\CargaMasivaDatos.Data\CargaMasivaDatos.Data.csproj">
-      <Project>{1c45b770-249f-483e-9cc7-2813ed46a505}</Project>
-      <Name>CargaMasivaDatos.Data</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
