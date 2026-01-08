@@ -76,6 +76,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interfaces\IGeneradorJSON.cs" />
+    <Compile Include="Interfaces\IGestorReintentos.cs" />
+    <Compile Include="Interfaces\IProcesadorPedidos.cs" />
+    <Compile Include="Interfaces\IRepositorioConfiguracion.cs" />
+    <Compile Include="Interfaces\IRepositorioDestino.cs" />
+    <Compile Include="Interfaces\IRepositorioOrigen.cs" />
     <Compile Include="Models\Cliente.cs" />
     <Compile Include="Models\ConfiguracionServicio.cs" />
     <Compile Include="Models\DetallePedido.cs" />
