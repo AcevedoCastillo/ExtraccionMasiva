@@ -76,7 +76,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Models\Cliente.cs" />
+    <Compile Include="Models\ConfiguracionServicio.cs" />
+    <Compile Include="Models\DetallePedido.cs" />
+    <Compile Include="Models\DTOs\ConfiguracionDTO.cs" />
+    <Compile Include="Models\DTOs\ResultadoProcesamientoDTO.cs" />
+    <Compile Include="Models\ErrorReintento.cs" />
+    <Compile Include="Models\LogProcesamiento.cs" />
+    <Compile Include="Models\Pedido.cs" />
+    <Compile Include="Models\PedidoJSON.cs" />
+    <Compile Include="Models\Producto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
